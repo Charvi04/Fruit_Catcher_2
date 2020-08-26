@@ -40,12 +40,12 @@ class Form{
             player.index = playerCount;
             player.update();
             player.updateCount(playerCount);
-            this.greeting.html("Hello " + player.name + " !!");
+            this.greeting.html("Hello " + player.name + " !!")
             this.greeting.position(400,250);
             this.greeting.style('color', 'white');
             this.greeting.style('font-size', '50px');
-            this.wake.html("Waiting For Others To Join......");
-            this.wake.position(250,350);
+            this.wake.html("Waiting For Other players to join........")
+            this.wake.position(200,400);
             this.wake.style('color', 'white');
             this.wake.style('font-size', '50px');
         });
